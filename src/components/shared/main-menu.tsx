@@ -6,19 +6,19 @@ const MainMenu = () => {
   return (
     <ul className="flex flex-col lg:flex-row items-center gap-5">
       <li>
-        <Link href="#home" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">Home</Link>
+        <Link href="#home" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">Inicio</Link>
       </li>
       <li>
-        <Link href="#services" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">Services</Link>
+        <Link href="#services" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">Servicios</Link>
       </li>
       <li>
-        <Link href="#about" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">About</Link>
+        <Link href="#about" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">Nosotros</Link>
       </li>
       <li>
-        <Link href="#contact" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">Contact</Link>
+        <Link href="#contact" className="py-2 px-4 border-b-2 border-transparent hover:border-primary transition-color duration-300 text-white">Contacto</Link>
       </li>
       <li>
-        <ButtonPrimary type="button" text="Join us" />
+        <ButtonPrimary type="button" text="Unete" />
       </li>
     </ul>
   );
