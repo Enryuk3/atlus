@@ -10,7 +10,7 @@ const SectionList = () => {
         <li>Excelentes Instalaciones</li>
         <li>Asesoría con Expertos</li>
       </ul>
-      <ButtonPrimary type="button" text="See More Benefits" />
+      <ButtonPrimary type="button" text="Ver más beneficios" />
     </section>
   );
 }
