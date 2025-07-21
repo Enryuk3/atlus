@@ -1,13 +1,17 @@
+import About from "@/components/about";
 import Hero from "@/components/hero";
 import Plans from "@/components/plans";
 import Services from "@/components/services";
+import Trainers from "@/components/trainers";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <Services />
       <Plans />
-    </main>
+      <Trainers />
+      <About />
+    </>
   );
 }
