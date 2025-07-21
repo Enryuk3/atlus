@@ -9,7 +9,7 @@ const Hero = () => {
         <Image src="/images/hero.png" alt="Hero" fill className="object-cover" />
         <div className="absolute bg-gradient-to-tr from-black to-transparent left-0 top-0 w-full h-full" />
         <Container>
-          <div className="absolute top-1/2 -translate-y-1/2 left-1/2 lg:left-60 -translate-x-1/2 lg:translate-x-0 space-y-10">
+          <div className="absolute top-1/2 -translate-y-1/2 left-1/2 lg:left-40 2xl:left-60 -translate-x-1/2 lg:translate-x-0 space-y-10">
             <h1 className="text-white text-6xl lg:text-7xl 2xl:text-8xl font-semibold text-center lg:text-left">
               Tu cuerpo <br /> se transformará
             </h1>
